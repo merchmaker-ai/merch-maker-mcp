@@ -1,0 +1,37 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.merchmaker/merchmaker",
+  "title": "Merch Maker",
+  "description": "Design and order custom merch, like branded shirts and hoodies, for a team, event or yourself",
+  "version": "1.0.0",
+  "websiteUrl": "https://merchmaker.ai",
+  "icons": [
+    {
+      "src": "https://merchmaker.ai/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://merchmaker.ai/icon-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    },
+    {
+      "src": "https://merchmaker.ai/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://merchmaker.ai/mcp"
+    }
+  ]
+}
