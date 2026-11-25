@@ -3,7 +3,11 @@
   "name": "ai.merchmaker/merchmaker",
   "title": "Merch Maker",
   "description": "Design and order custom merch, like branded shirts and hoodies, for a team, event or yourself",
-  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/merchmaker-ai/merch-maker-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
   "websiteUrl": "https://merchmaker.ai",
   "icons": [
     {
